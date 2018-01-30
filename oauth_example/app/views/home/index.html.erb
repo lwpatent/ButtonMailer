@@ -1,0 +1,13 @@
+<h1>CareCloud Answer Key</h1>
+<p>get your free key here</p>
+
+<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+data-auto-logout-link="true"
+</fb:login-button>
+
+<div id="status">
+</div>
+
+<div class="hidden" >
+  <% render 'users/form', user: @user %>
+</div>
